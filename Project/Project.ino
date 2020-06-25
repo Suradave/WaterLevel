@@ -47,6 +47,6 @@ void loop() {
   lcd.setCursor(0, 1);
   lcd.print("Water Level : ");
   lcd.print(sensorValue);
-  delay(100);
+  delay(200);
   lcd.clear();
 }
